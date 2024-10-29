@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.batata{
+    height: 50vh;
+}
+
+.cardfoto{
+    display: flex;
+}
+
+ .depoimento{
+  display: flex;  
+ }
+
+ .cardfoto{
+    display: flex; 
+    align-items: center;
+    justify-content: space-around;
+}
+
+.imglogo{
+    height: 5vh;
+    width: 3vw;
+}
+
+.npc img.card-img-top {
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+    
+
+.formulario{
+    display: flex;
+    justify-content: center;
+
+}
+
+.nome{
+    height: 10vh;
+    width: 2    0vw;
+}
+
+.comentario input{
+    height: 10vh;
+    width: 20vw;
+    margin-top: -5vh;
+}
+
+.nome input form-control{
+    height: 10vh;
+    width: 15vw;
+}
+
+.enviar{
+    margin-left: 15vh;
+}
